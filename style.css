@@ -4,72 +4,74 @@ body {
     color: #f0f0f0;
     margin: 0;
     padding: 20px;
-  }
-  
-  main {
+}
+
+main {
     max-width: 600px;
     margin: 0 auto;
-  }
-  
-  h1,
-  h2 {
+}
+
+h1, h2 {
     color: #cccccc;
-  }
-  
-  form {
+}
+
+form {
     margin-bottom: 20px;
-  }
-  
-  label,
-  input {
+}
+
+label, input {
     display: block;
     margin-bottom: 10px;
-  }
-  
-  input[type="text"],
-  input[type="email"] {
+}
+
+input[type="text"], input[type="email"] {
     width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 10px;
     background-color: #3a3a3a;
     border: 1px solid #555555;
     color: #ffffff;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px 15px;
     background-color: #555555;
     border: none;
     color: #ffffff;
     cursor: pointer;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #777777;
-  }
-  
-  ul {
+}
+
+ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  li {
+}
+
+li {
     padding: 10px;
     border: 1px solid #555555;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .deleteBtn {
+}
+
+.deleteBtn {
     background-color: #ff4c4c;
     border: none;
     padding: 5px 10px;
     color: #ffffff;
     cursor: pointer;
-  }
-  
-  .deleteBtn:hover {
+}
+
+.deleteBtn:hover {
     background-color: #ff0000;
-  }
+}
+
+.error {
+    color: #ff4c4c;
+    font-size: 0.9em;
+}
